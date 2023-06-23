@@ -19,21 +19,23 @@ ul {
 }
 
 .container {
-  max-width: 375px;
-  height: 408px;
-
-  /* margin-top: 5rem; */
+  max-width: 700px;
+  max-height: 408px;
+  margin-top: 15%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   text-align: center;
-  box-shadow: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 30px 1px rgba(0, 0, 0, 0.3);
 }
 
 .result-container {
   background: linear-gradient(var(--slate-blue), var(--royal-blue));
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+
+  border-radius: 15px;
 }
 
 .result-container ul li:first-child {
@@ -77,8 +79,12 @@ ul {
 }
 
 .result-container ul li:last-child {
-  padding: 0 2.5rem 2.5rem 2.5rem;
+  padding: 0 3rem 1.5rem 3rem;
   color: var(--lavender);
+}
+
+.summary-container {
+  padding-top: 1.5rem;
 }
 
 .summary-container ul li {
@@ -86,7 +92,7 @@ ul {
   justify-content: space-between;
   /* text-align: center; */
   /* padding: 0 2rem; */
-  height: 3.5rem;
+  height: 3rem;
   align-items: center;
   border-radius: 10px;
   margin: 0 20px;
@@ -102,7 +108,8 @@ ul {
   align-items: first baseline;
   height: 3rem;
   border: none;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .summary-container ul li span:last-of-type {
@@ -135,6 +142,7 @@ strong {
 .summary-container ul li:nth-child(5) {
   background: hsl(234, 85%, 45%, 0.05);
   color: hsl(234, 85%, 45%);
+  margin-bottom: 2rem;
 }
 
 .summary-container ul a {
@@ -144,6 +152,7 @@ strong {
   color: #fff;
   border-radius: 50px;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .summary-container ul a:hover {

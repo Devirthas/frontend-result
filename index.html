@@ -17,7 +17,16 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1450px)"
+      href="css/desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
 
     <title>Frontend Mentor | Results summary component</title>
 
@@ -37,34 +46,50 @@
       <div class="result-container">
         <ul>
           <li>Your Result</li>
-          <li><div class="circle"> <div class="score">76</div><div class="max-score">of 100</div></div></li>
-          
+          <li>
+            <div class="circle">
+              <div class="score">76</div>
+              <div class="max-score">of 100</div>
+            </div>
+          </li>
+
           <li>Great</li>
-          <li>You scored higher than 65% of the people who
-            have taken these tests.</li>
+          <li>
+            You scored higher than 65% of the people who have taken these tests.
+          </li>
         </ul>
-        
       </div>
       <div class="summary-container">
-
         <ul>
           <li>Summary</li>
-          <li><img src="assets/images/icon-reaction.svg" alt=""><span>Reaction</span> <span><strong>80</strong> / 100</span> </li>
-          <li><img src="assets/images/icon-memory.svg" alt=""><span >Memory</span> <span><strong>92</strong> / 100</span> </li>
-          <li><img src="assets/images/icon-verbal.svg" alt=""><span>Verbal </span> <span><strong>61</strong> / 100</span> </li>
-          <li><img src="assets/images/icon-visual.svg" alt=""><span>Visual</span> <span><strong>72</strong> / 100</span> </li>
-          
+          <li>
+            <img src="assets/images/icon-reaction.svg" alt="" /><span
+              >Reaction</span
+            >
+            <span><strong>80</strong> / 100</span>
+          </li>
+          <li>
+            <img src="assets/images/icon-memory.svg" alt="" /><span
+              >Memory</span
+            >
+            <span><strong>92</strong> / 100</span>
+          </li>
+          <li>
+            <img src="assets/images/icon-verbal.svg" alt="" /><span
+              >Verbal
+            </span>
+            <span><strong>61</strong> / 100</span>
+          </li>
+          <li>
+            <img src="assets/images/icon-visual.svg" alt="" /><span
+              >Visual</span
+            >
+            <span><strong>72</strong> / 100</span>
+          </li>
+
           <li><a href="">Continue</a></li>
         </ul>
-     
-
+      </div>
     </div>
-
-    <div class="attribution">
-      Challenge by
-    </body>
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  </body>
 </html>
